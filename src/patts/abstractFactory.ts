@@ -80,6 +80,9 @@ class Application {
 	private connectionHandler: ConnectionHandler;
 	private queryBuilderHandler: QueryBuilderHandler;
 
+
+
+
 	constructor(factory: DatabaseFactory) {
 		this.connectionHandler = factory.createConnection();
 		this.queryBuilderHandler = factory.buildQuery();
