@@ -1,4 +1,4 @@
-function test() {
+function testDecorator() {
 	return function() {
 		console.log("This is mocking function");
 	}
@@ -8,7 +8,7 @@ function test() {
 class Logging {
 	constructor() {}
 	
-	// @test()
+	// @testDecorator()
 	make() {
 		console.log("Make Log")
 	}

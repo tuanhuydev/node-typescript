@@ -1,1 +1,1 @@
-import "./src/patts/abstractFactory";
+import "./src/patts/prototype";
